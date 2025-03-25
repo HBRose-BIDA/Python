@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summary of Tools</title>
-    </head>
+    <style>
+        header {
+            display: flex;
+            justify-content: center;
+            background-color: #003366; /* Dark blue background for contrast */
+            color: white; /* White text for better readability */
+            padding: 10px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        main {
+            padding: 20px;
+        }
+        .return-button {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 15px;
+            background-color: #0056b3; /* Blue button color */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .return-button:hover {
+            background-color: #003d80; /* Darker blue on hover */
+        }
+    </style>
+</head>
 <body>
-    <div class="container">
+    <header>
         <h1>Summary of Tools</h1>
+    </header>
+    <main>
+        <a href="javascript:history.back()" class="return-button">Return to Personal Profile Repository</a>
 
         <h2>Programming</h2>
         <ul>
@@ -114,6 +146,6 @@
             <li><strong>Sydex</strong></li>
             <li><strong>Dartfish</strong></li>
         </ul>
-    </div>
+    </main>
 </body>
 </html>
